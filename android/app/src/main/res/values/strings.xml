@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Luvia Party</string>
+    <string name="title_activity_main">Luvia Party</string>
+    <string name="package_name">com.luvia.app</string>
+    <string name="custom_url_scheme">com.luvia.app</string>
+</resources>
