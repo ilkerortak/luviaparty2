@@ -1,0 +1,6 @@
+{
+  "name": "Luvia Party",
+  "description": "Luvia Party — Sesli sohbet odaları, Ludo, Kurtadam, Casus Kim, Çiz & Tahmin Et, Trivia ve çok oyunculu parti oyunları platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

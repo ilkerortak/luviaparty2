@@ -1,32 +1,47 @@
-# React + TypeScript + Vite
+# Luvia Party — Android (Kotlin + Jetpack Compose)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Luvia Party**, sesli parti odaları, canlı çok oyunculu oyunlar ve sosyal etkileşim platformudur.
 
-Currently, two official plugins are available:
+## 🌟 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **🎙️ Sesli Parti Odaları:**
+  - 8 kişilik sahneli interaktif mikrofon koltukları ve canlı konuşma animasyonları
+  - 20+ animasyonlu lüks ve mitolojik hediye efektleri (Aşk Mektubu, Altın Gül, Pırlanta Yüzük, Lamborghini, Siber Ejderha, Kristal Şato vb.)
+  - **🎡 Şans Çarkı (Lucky Wheel):** Çark çevirerek altın ve elmas ödülleri kazanma
+  - **⚔️ PK Düellosu:** Kırmızı ve mavi takım arasında canlı hediye yarışması
+  - **🧧 Kırmızı Kese (Zarf):** Odaya altın zarfı yağdırma ve kapma
+  - **🎱 Parti Tombala (Bingo):** 3x3 sayı çekilişi
+  - **🎙️ Mikrofon Sırası (Waitlist):** Konuşma taleplerini yönetme
+  - **Arka Planda Dinleme:** Odada kalırken oyunları veya keşfet sekmesini gezebilme (Kayan HUD çubuğu)
 
-## React Compiler
+- **🎮 8 İnteraktif Parti Oyunu:**
+  - **🐺 Kurtadam / Uzay Vampiri (Werewolf):** Rol dağılımı (Vampir, Kahin, Doktor, Mürettebat), gece avlanması ve gündüz oylaması
+  - **🎨 Çiz & Tahmin Et (Draw & Guess):** Dokunmatik çizim tuvali, renk paleti, tahmin sohbeti
+  - **🕵️ Casus Kim? (Who is the Spy?):** Gizli kelime eşleşmesi, ipucu turları ve casus yakalama oylaması
+  - **🎲 Kızma Birader (Ludo Party):** 3D animasyonlu zar atma, piyon ilerletme ve hedef üsse ulaşma
+  - **🎤 Mikrofon Kapmaca (Mic Grab):** Şarkı sözlerindeki boşlukları hızlı buton refleksi ile tamamlama
+  - **🃏 Renkli Kartlar (Uno Party):** Renk ve sayı eşleştirme, +2, +4, Skip, Reverse kartları ve UNO çağrısı
+  - **🎯 Jackaroo Star:** Taktik kartlarla bilye ilerletme ve takas hamleleri
+  - **🧠 Bilgi Yarışması (Trivia Quiz):** 10 saniyelik kategorili genel kültür soruları ve seri çarpanları
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **✨ Sosyal & Keşfet (Moments):**
+  - Topluluk gönderileri, beğeni ve yorum akışı, yeni an paylaşımı
 
-## Expanding the Oxlint configuration
+- **💬 Özel Mesajlaşma (Direct Messages):**
+  - Çevrimiçi durumu, sohbet geçmişi ve eğlenceli parti çıkartmaları
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- **👤 Profil & Gelişim Sistemi:**
+  - Seviye (Level) ve Deneyim (EXP) sistemi
+  - Cazibe Değeri (Charm System)
+  - **✨ Avatar Stüdyosu:** Saç modelleri, renkleri, göz ifadeleri, kıyafetler, aksesuarlar ve hareketli neon çerçeveler
+  - **🛍️ Luvia Mağaza:** Çerçeveler, aksesuarlar, VIP üyelikler ve altın paketleri
+  - **🎁 Günlük Giriş:** 7 günlük giriş serisi ödülleri
+  - **🏆 Liderlik Tablosu:** Cazibe, Zenginlik ve Oyun Şampiyonları
+  - **💍 CP (Aşk Bağı) Sistemi & 🛡️ Aile/Lonca Kulübü**
+  - **📖 Ziyaretçi Defteri & 🎁 Hediye Duvarı**
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🛠️ Mimari & Teknolojiler
+- **Dil:** %100 Modern Kotlin
+- **Arayüz:** Jetpack Compose (Material 3)
+- **Mimari:** MVVM & Kotlin Coroutines / StateFlow
+- **Ses & Haptik:** SoundPool & Android Vibration Feedback

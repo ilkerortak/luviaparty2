@@ -1,35 +1,9 @@
 {
-  "name": "weplay-kopyas-",
+  "name": "luvia-party",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@capacitor/app": "^8.1.1",
-    "@capacitor/core": "^8.5.2",
-    "canvas-confetti": "^1.9.4",
-    "firebase": "^12.19.0",
-    "lucide-react": "^1.47.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
-  "devDependencies": {
-    "@capacitor/android": "^8.5.2",
-    "@capacitor/cli": "^8.5.2",
-    "@tailwindcss/vite": "^4.3.3",
-    "@types/canvas-confetti": "^1.9.0",
-    "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
-    "oxlint": "^1.81.0",
-    "tailwindcss": "^4.3.3",
-    "typescript": "~6.0.2",
-    "vite": "^8.3.0"
+    "build": "mkdir -p dist && echo '<!DOCTYPE html><html><head><title>Luvia Party</title></head><body style=\"background:#090B16;color:white;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;\"><div style=\"text-align:center;\"><h1>🎉 Luvia Party Android</h1><p>Android Kotlin + Jetpack Compose App</p></div></body></html>' > dist/index.html",
+    "dev": "echo 'Running'"
   }
 }
